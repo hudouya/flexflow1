@@ -1,0 +1,26 @@
+html, body { height: 100%; background: lightgrey; margin: 0;}
+.container{
+    display:flex;
+    flex-flow:row;
+    max-width: 1000px;
+    height:100%;
+    margin:auto;
+}
+.main{
+    width:60%;
+    background-color: palevioletred;
+    padding:7px;
+    margin:20px 0;
+}
+.left{
+    flex:1;
+    background-color: greenyellow;
+}
+.right{
+    flex:2;
+    background-color: aqua;
+}
+.nav{
+    margin:20px 15px;
+    padding:7px;
+}
